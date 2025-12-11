@@ -1,0 +1,99 @@
+using System;
+
+namespace KB5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        { //задание 1
+            static void SayHello()
+            {
+                Console.WriteLine("Привет, мир!");
+            }
+
+            SayHello();
+            SayHello();
+            SayHello();
+            //задание 2
+            static string Greet(string name)
+            {
+              return $"Привет,{name} ";
+            }
+
+            Console.WriteLine(Greet("Саша"));
+            Console.WriteLine(Greet("Ярослав"));
+            Console.WriteLine(Greet("Анна"));
+            //задание 3
+            static string  PrintPerson(string name1, int age, string city)
+            {
+                return $"Имя: {name1}, возраст: {age}, город: {city}";
+            }
+            Console.WriteLine (PrintPerson("Егор",15, "Москва"));
+            //задание 4
+
+            static string PrintPerson1(string name2, int age2 = 18, string hobby = "Не указано")
+            {
+                return $"Имя: {name2}, возраст: {age2}, хобби : { hobby }";
+            }
+            Console.WriteLine(PrintPerson1("Егор" ));
+            //Задание 5
+            int x = 10;
+            static int Square(int x){
+                return x*x;
+            }
+            Console.WriteLine(Square(x));
+            //Задание 6
+            
+            
+            string znach;
+             
+            static int Add(int a, int b)
+            {
+                return a + b;
+            }
+            static int Subtract(int a, int b)
+            {
+                return a - b;
+            }
+            static int Multiply(int a, int b)
+            {
+                return a * b;
+            }
+            static double Divide(int a, int b)
+            {
+                if (b == 0)
+                    throw new DivideByZeroException("Деление на ноль невозможно.");
+
+                return (double)a / b;
+            }
+
+            Console.WriteLine("введи a и b");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("введи  операцию");
+            znach = Console.ReadLine();
+            if (znach == "+")
+            {
+                Console.WriteLine(Add(a, b));
+
+            }
+            else if (znach == "-")
+            {
+                Console.WriteLine(Subtract(a, b));
+            }
+            else if (znach == "*")
+            {
+                Console.WriteLine(Multiply(a, b));
+            }
+            else if (znach == "/")
+            {
+                Console.WriteLine(Divide(a, b));
+            }
+            else
+            {
+                Console.WriteLine("неверный оператор");
+
+            }
+
+
+
