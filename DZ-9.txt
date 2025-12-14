@@ -1,0 +1,44 @@
+using System;
+
+namespace KB5
+{
+    class Program
+
+    {
+        class Phone
+        {
+            public string Model { get; set; }
+            public  int Battery { get; set; }
+            public Phone(string model, int battery)
+            {
+                Model = model;
+                Battery = battery;
+            }
+            public int Charge(int amount)
+            {
+                return this.Battery + amount;
+            }
+            public int Use(int amount)
+            {
+                return this.Battery -= amount;
+            }
+
+        }
+        static void Main(string[] args)
+        {
+            //задание 2
+            var myPhone = new Phone("Samsung Galaxy S21", 50);
+            myPhone.Charge(20);
+            Console.WriteLine($"Заряд {myPhone.Battery}%");
+      
+
+
+
+
+
+
+
+
+       }
+    }
+ }
