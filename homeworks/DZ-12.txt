@@ -1,0 +1,50 @@
+using System;
+
+namespace KB5
+{
+    public class Movie
+    {
+        public string Title { get; set; }
+        public string Genre { get; set; }
+        public int  Rating { get; set; }
+
+        public Movie() { }
+
+        public Movie(string title) {
+           Title = title;
+            Console.WriteLine($"название фильма: {Title}");
+        }
+
+        public Movie(string title,string genre)
+        {
+           Genre = genre;
+           Title = title;
+            Console.WriteLine($"название фильма: {Title}");
+            Console.WriteLine($"жанр: {Genre}");
+        }
+
+        public Movie(string title, string genre, int rating)
+        {
+            Rating = rating;
+            Genre = genre;
+            Title = title;
+            Console.WriteLine($"название фильма: {Title}");
+            Console.WriteLine($"жанр: {Genre}");
+            Console.WriteLine($"рейтинг: {Rating}");
+        }
+
+
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+                var m1 = new Movie(); 
+                var m2 = new Movie("Матрица"); 
+                var m3 = new Movie("Начало", "Фантастика", 9);
+
+
+            }
+        }
+}
+
