@@ -1,0 +1,53 @@
+Задание 1
+
+ using System;
+
+namespace Test_bank
+{
+
+    public class Transport
+    {
+        public string Model { get; set; }
+        protected int Speed { get; set; }
+        public virtual void ShowInfo(string model,int speed)
+        {
+            Speed = speed;
+            Model = model;
+            Console.WriteLine($"Модель: {Model}, скорость: {Speed} км/ч");
+            Console.WriteLine("танспорт движется");
+        }
+
+
+    }public class Model:Transport
+    {
+        public override void ShowInfo(string model, int speed)
+        {
+            Speed = speed;
+            Model = model;
+            base.ShowInfo(model, speed);
+            Console.WriteLine($"Модель: {Model}, скорость: {Speed} км/ч");
+        }
+    }
+ 
+    
+
+
+
+
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+        var transport = new Transport();
+            transport.ShowInfo("AYD",100);
+
+
+
+        }
+    }
+}
+
+
+
+ 
