@@ -1,0 +1,112 @@
+using System;
+
+ abstract class Transport
+{
+ 
+    public void Move()
+    {
+        Start();      // Начало движения
+        MoveCore();   // Основное движение
+        Stop();       // Остановка
+    }
+    protected void Start()
+    {
+        Console.WriteLine("Старт");
+    }
+
+    protected void Stop()
+    {
+        Console.WriteLine("Стоп");
+    }
+
+   
+    protected abstract void MoveCore();
+}
+ class Car : Transport
+{
+    protected override void MoveCore()
+    {
+        Console.WriteLine("Машина едет по дороге");
+    }
+}
+
+class Boat : Transport
+{
+    protected override void MoveCore()
+    {
+        Console.WriteLine("Лодка плывёт по воде");
+    }
+}
+
+
+
+
+
+
+//Задание 2
+
+abstract class DocumentExporter
+{
+    public abstract string FormatName { get; }
+
+
+    public abstract void Export(string content);
+
+
+    public void ShowInfo(string content)
+    {
+        Console.WriteLine($"Экспорт в формат {FormatName}: {content}");
+    }
+}
+
+class TxtExporter : DocumentExporter
+{
+
+    public override string FormatName => "TXT";
+
+
+    public override void Export(string content)
+    {
+        Console.WriteLine("Сохраняем текстовый файл");
+    }
+}
+
+
+class PdfExporter : DocumentExporter
+{
+
+    public override string FormatName => "PDF";
+
+
+    public override void Export(string content)
+    {
+        Console.WriteLine("Создаем PDF-документ");
+    }
+}
+
+class Program
+{
+    static void Main()
+    { 
+        Transport[] transports = { new Car(), new Boat() };
+
+     
+        foreach (var transport in transports)
+        {
+            transport.Move();
+        
+
+
+            DocumentExporter[] exporters = { new TxtExporter(), new PdfExporter() };
+
+
+            foreach (var exporter in exporters)
+            {
+                exporter.ShowInfo("Hello world!");
+                exporter.Export("Hello world!");
+                
+            }
+        }
+    }
+}     
+
