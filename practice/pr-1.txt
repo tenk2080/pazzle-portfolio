@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Collections;
+namespace KB5
+{
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            var actions = new Stack<string>();
+            actions.Push("à");
+            actions.Push("á");
+            actions.Push("â");
+            string x = actions.Pop();
+            Console.WriteLine($"{x}");
+            actions.Push(x);
+
+        }
+     } 
+
+}
