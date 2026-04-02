@@ -1,0 +1,77 @@
+using System;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Security.Authentication;
+using System.Threading;
+using System.Threading.Tasks;
+
+using Telegram.Bot;
+using Telegram.Bot.Polling;
+using Telegram.Bot.Types;
+using Telegram.Bot.Types.Enums;
+//using Microsoft.Bcl.Async;
+
+System.Net.ServicePointManager.SecurityProtocol =
+    System.Net.SecurityProtocolType.Tls12 |
+    System.Net.SecurityProtocolType.Tls11 |
+    System.Net.SecurityProtocolType.Tls;
+
+class Program
+{
+    static async Task HendlerUpdateAsync(ITelegramBotClient bot, Update update, CancellationToken ct)
+    {
+        if (update.Message is not { Text: { } messageText } message) return;
+        var chatId = message.Chat.Id;
+        if (messageText.Trim().ToLower() == "/start")
+        {
+            await bot.SendMessage(
+            chatId: chatId,
+            text: "я бот от @Tenk208",
+            cancellationToken: ct
+            );
+        }
+    }
+
+    static void Main(string[] args)
+    {
+        const string token = "8555528588:AAHfaNg6F_ujEZFux1iykaPq5ieFNeZZTsk";
+        var httpHandler = new HttpClientHandler
+        {
+
+
+            SslProtocols = SslProtocols.Tls12 | SslProtocols.Tls13,
+            ServerCertificateCustomValidationCallback = (sender, cert, chain, errors) => true
+        };
+
+        var httpClient = new HttpClient(httpHandler);
+
+        var botClient = new TelegramBotClient(token, httpClient);
+        ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+        ServicePointManager.ServerCertificateValidationCallback +=
+        (sender, cert, chain, sslPolicyErrors) => true;
+
+        AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
+        AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2Support", true);
+
+        ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+
+       
+        
+        Console.WriteLine("Запуск бота...");
+       
+        using var cts = new CancellationTokenSource();//отмены
+
+        botClient.StartReceiving(
+        updateHandler: HendlerUpdateAsync,
+        errorHandler: (bot, exception, ct) => { Console.WriteLine($"ошибка :{exception.Message}"); return Task.CompletedTask; },
+        receiverOptions: new ReceiverOptions { AllowedUpdates = new[] { UpdateType.Message } },
+        cancellationToken: cts.Token
+        );
+        Console.ReadLine();
+        cts.Cancel();
+    }
+}
+
+
+
