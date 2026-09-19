@@ -505,11 +505,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\уроки\\бекенд\\Kod_API_Net\\Kod_API_Net\\Kod_API_Net.csproj",
+      "projectUniqueName": "D:\\уроки\\бекенд\\pazzle-portfolio\\practice\\2 курс\\Kod_API_Net\\Kod_API_Net\\Kod_API_Net.csproj",
       "projectName": "Kod_API_Net",
-      "projectPath": "D:\\уроки\\бекенд\\Kod_API_Net\\Kod_API_Net\\Kod_API_Net.csproj",
+      "projectPath": "D:\\уроки\\бекенд\\pazzle-portfolio\\practice\\2 курс\\Kod_API_Net\\Kod_API_Net\\Kod_API_Net.csproj",
       "packagesPath": "C:\\Users\\Tenk\\.nuget\\packages\\",
-      "outputPath": "D:\\уроки\\бекенд\\Kod_API_Net\\Kod_API_Net\\obj\\",
+      "outputPath": "D:\\уроки\\бекенд\\pazzle-portfolio\\practice\\2 курс\\Kod_API_Net\\Kod_API_Net\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

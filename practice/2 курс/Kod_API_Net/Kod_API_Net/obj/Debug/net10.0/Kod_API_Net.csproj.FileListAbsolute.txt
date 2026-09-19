@@ -35,3 +35,41 @@ D:\уроки\бекенд\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\ref\Kod_API
 D:\уроки\бекенд\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\уроки\бекенд\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\уроки\бекенд\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\appsettings.Development.json
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\appsettings.json
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\Kod_API_Net.staticwebassets.endpoints.json
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\Kod_API_Net.exe
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\Kod_API_Net.deps.json
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\Kod_API_Net.runtimeconfig.json
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\Kod_API_Net.dll
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\Kod_API_Net.pdb
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\Microsoft.OpenApi.dll
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\Kod_API_Net.csproj.AssemblyReference.cache
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\Kod_API_Net.GeneratedMSBuildEditorConfig.editorconfig
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\Kod_API_Net.AssemblyInfoInputs.cache
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\Kod_API_Net.AssemblyInfo.cs
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\Kod_API_Net.csproj.CoreCompileInputs.cache
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\Kod_API_Net.MvcApplicationPartsAssemblyInfo.cs
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\Kod_API_Net.MvcApplicationPartsAssemblyInfo.cache
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\Kod_API_Net.sourcelink.json
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\scopedcss\bundle\Kod_API_Net.styles.css
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\staticwebassets.build.json
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\staticwebassets.development.json
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\swae.build.ex.cache
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\Kod_API_.31692773.Up2Date
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\Kod_API_Net.dll
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\refint\Kod_API_Net.dll
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\Kod_API_Net.pdb
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\Kod_API_Net.genruntimeconfig.cache
+D:\уроки\бекенд\pazzle-portfolio\practice\2 курс\Kod_API_Net\Kod_API_Net\obj\Debug\net10.0\ref\Kod_API_Net.dll

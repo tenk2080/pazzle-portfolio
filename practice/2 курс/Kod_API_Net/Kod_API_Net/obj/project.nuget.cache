@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I4OdSJK6n4U=",
+  "dgSpecHash": "+GD1WtHw6HY=",
   "success": true,
-  "projectFilePath": "D:\\уроки\\бекенд\\Kod_API_Net\\Kod_API_Net\\Kod_API_Net.csproj",
+  "projectFilePath": "D:\\уроки\\бекенд\\pazzle-portfolio\\practice\\2 курс\\Kod_API_Net\\Kod_API_Net\\Kod_API_Net.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tenk\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
     "C:\\Users\\Tenk\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
