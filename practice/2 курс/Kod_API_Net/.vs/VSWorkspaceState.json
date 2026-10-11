@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Kod_API_Net",
+    "\\Kod_API_Net\\Data"
   ],
-  "SelectedNode": "\\Kod_API_Net.slnx",
+  "SelectedNode": "\\Kod_API_Net\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
